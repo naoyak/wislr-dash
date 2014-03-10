@@ -4,10 +4,10 @@ require 'twitter'
 #### Get your twitter keys & secrets:
 #### https://dev.twitter.com/docs/auth/tokens-devtwittercom
 twitter = Twitter::REST::Client.new do |config|
-  config.consumer_key = 'YOUR_CONSUMER_KEY'
-  config.consumer_secret = 'YOUR_CONSUMER_SECRET'
-  config.oauth_token = 'YOUR_OAUTH_TOKEN'
-  config.oauth_token_secret = 'YOUR_OAUTH_SECRET'
+  config.consumer_key = '4NmeKykVdfufaJ7YfPqdA'
+  config.consumer_secret = 'Bv7P25gC3A7ISo9wS71ITxYBHmZik419QQBeK0kn5u0'
+  config.oauth_token = '37573930-4ANdjBDu0Y19CoGrZMvPBwjLyXiKAxbyUbsv93Moo'
+  config.oauth_token_secret = 'ogun6qBtqiCRrYZMmFQ0Cqy8QnWKYxzR8jkZC2pPXBORi'
 end
 
 search_term = URI::encode('#todayilearned')
